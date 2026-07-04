@@ -7,10 +7,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: Yeti
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-Sitemap: https://t3b06-mg-night-tip-1.pages.dev/sitemap.xml
+Sitemap: https://magok-night-guide.node-link.shop/sitemap.xml
