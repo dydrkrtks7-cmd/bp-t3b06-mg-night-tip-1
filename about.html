@@ -2,338 +2,78 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>마곡 유흥 꿀팁 – 정보 페이지</title>
-  <meta name="description" content="마곡에서 진짜 즐기는 법! 원주민이 알려주는 유흥 꿀팁 대방출. 숨은 단속 정보, 가성비 코스, 리얼 후기까지 한 곳에 모았다. 전화 010-6279-0862 문의 환영.">
-  <meta name="keywords" content="마곡 유흥, 마곡 유흥 꿀팁, 마곡 술집, 마곡 밤문화, 마곡 단속 정보, 마곡 가성비 코스, 마곡 놀거리">
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-acid-yellow">
+  <title>마곡 유흥 정보 - 상세 가이드</title>
+  <meta name="description" content="마곡 지역의 유흥 정보를 한눈에 정리하고, 상황별로 적합한 장소와 유의사항을 알려드립니다. 처음 방문 전 꼭 확인해야 할 체크리스트를 제공합니다.">
+  <meta name="keywords" content="마곡, 유흥, 꿀팁, 마곡 유흥 정보, 마곡 나이트 가이드">
   <link rel="canonical" href="https://magok-night-guide.node-link.shop/about.html">
-  <meta property="og:title" content="마곡 유흥 꿀팁 – 원주민이 전하는 리얼 팁">
-  <meta property="og:description" content="마곡에서 진짜 즐기는 법! 유흥 꿀팁, 단속 정보, 가성비 코스까지 한 방에.">
-  <style>
-    /* RESET & BASE */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-    body {
-      font-family: 'Pretendard', 'Noto Sans KR', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #1a1a1a;
-      color: #e0e0e0;
-      line-height: 1.6;
-      min-height: 100vh;
-    }
-    img, svg { max-width: 100%; height: auto; display: block; }
-    a { color: #f5e942; text-decoration: none; }
-    a:hover { color: #fff; }
-    ul, ol { list-style: none; }
-    li { margin: 0; }
-
-    /* TYPOGRAPHY */
-    h1, h2, h3, h4 { font-weight: 900; letter-spacing: -0.02em; }
-    h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.1; }
-    h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-bottom: 0.5em; }
-    h3 { font-size: clamp(1.2rem, 3vw, 1.8rem); }
-    p { font-size: 1rem; line-height: 1.7; margin-bottom: 1em; }
-
-    /* LAYOUT */
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
-
-    /* HEADER */
-    header {
-      background: #0d0d0d;
-      border-bottom: 4px solid #f5e942;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .header-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.8rem 1rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .logo a {
-      font-size: 1.8rem;
-      font-weight: 900;
-      color: #f5e942;
-      text-transform: uppercase;
-      letter-spacing: -0.03em;
-    }
-    .logo a:hover { color: #fff; }
-    nav a {
-      color: #ccc;
-      font-weight: 700;
-      margin-left: 1.5rem;
-      position: relative;
-    }
-    nav a:hover { color: #f5e942; }
-    nav a::after {
-      content: '';
-      display: block;
-      width: 0;
-      height: 2px;
-      background: #f5e942;
-      transition: width 0.3s;
-    }
-    nav a:hover::after { width: 100%; }
-
-    /* HAMBURGER MENU (responsive) */
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-      background: none;
-      border: none;
-      padding: 0.5rem;
-    }
-    .hamburger span {
-      display: block;
-      width: 28px;
-      height: 3px;
-      background: #f5e942;
-      margin: 4px 0;
-      transition: 0.3s;
-    }
-    @media (max-width: 768px) {
-      .hamburger { display: flex; }
-      nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: #111;
-        padding: 1rem;
-        border-bottom: 3px solid #f5e942;
-      }
-      nav.active { display: block; }
-      nav a {
-        display: block;
-        margin: 0.8rem 0;
-        font-size: 1.2rem;
-      }
-    }
-
-    /* TEL LINK – call button style */
-    .tel-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: #f5e942;
-      color: #1a1a1a;
-      padding: 0.6rem 1.2rem;
-      border-radius: 30px;
-      font-weight: 800;
-      font-size: 1.1rem;
-      transition: 0.2s;
-    }
-    .tel-link:hover {
-      background: #fff;
-      color: #1a1a1a;
-      transform: scale(1.02);
-    }
-
-    /* HERO */
-    .hero {
-      padding: 4rem 0 3rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle at 30% 50%, rgba(245,233,66,0.08), transparent 70%);
-      pointer-events: none;
-    }
-    .hero h1 {
-      background: linear-gradient(135deg, #f5e942, #ffcc00);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin: 1rem auto 2rem;
-      color: #bbb;
-    }
-
-    /* CARDS */
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      padding: 2rem 0;
-    }
-    .card {
-      background: #222;
-      border: 2px solid #333;
-      border-radius: 12px;
-      padding: 1.8rem 1.5rem;
-      transition: 0.3s;
-      position: relative;
-    }
-    .card:hover {
-      border-color: #f5e942;
-      transform: translateY(-4px);
-      box-shadow: 0 10px 30px rgba(245,233,66,0.15);
-    }
-    .card h3 {
-      color: #f5e942;
-      margin-bottom: 0.6rem;
-    }
-    .card p { color: #ccc; font-size: 0.95rem; }
-
-    /* FAQ */
-    .faq-list {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .faq-item {
-      border-bottom: 1px solid #333;
-      padding: 1.2rem 0;
-    }
-    .faq-question {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-      font-weight: 700;
-      font-size: 1.1rem;
-      color: #f5e942;
-    }
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease;
-      color: #aaa;
-      padding-top: 0.5rem;
-    }
-    .faq-item.open .faq-answer { max-height: 300px; }
-    .faq-toggle {
-      font-size: 1.5rem;
-      transition: 0.3s;
-    }
-    .faq-item.open .faq-toggle { transform: rotate(45deg); }
-
-    /* FOOTER */
-    footer {
-      background: #0d0d0d;
-      padding: 2rem 0;
-      text-align: center;
-      border-top: 3px solid #f5e942;
-      margin-top: 4rem;
-    }
-    footer p { color: #777; font-size: 0.9rem; }
-    footer .tel-link { margin-top: 0.8rem; }
-
-    /* RESPONSIVE 768 */
-    @media (max-width: 768px) {
-      .hero { padding: 2.5rem 0 2rem; }
-      .card { padding: 1.3rem; }
-    }
-
-    /* EXTRA */
-    .highlight { color: #f5e942; font-weight: 700; }
-    .section-title { text-align: center; margin-bottom: 2rem; }
-    .section-title span { border-bottom: 4px solid #f5e942; padding-bottom: 0.3rem; }
-  </style>
+  <meta property="og:title" content="마곡 유흥 꿀팁 — 처음 방문자를 위한 선택 가이드">
+  <meta property="og:description" content="마곡 유흥 정보를 상황별로 정리하고, 방문 전 체크리스트와 유의사항을 제공합니다.">
   <meta property="og:url" content="https://magok-night-guide.node-link.shop/about.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://magok-night-guide.node-link.shop/og-image.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS는 기존 디자인 시스템을 그대로 사용합니다 -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- 헤더 Nav (공통) -->
+  <nav class="v-head-h999 nav-present responsive-768">
+    <ul>
+      <li><a href="/"><span class="q-ico-xhdn">🏠</span> 홈</a></li>
+      <li><a href="/info"><span class="q-ico-xhdn">ℹ️</span> 정보</a></li>
+      <li><a href="/tips"><span class="q-ico-xhdn">💡</span> 꿀팁</a></li>
+      <li><a href="/contact"><span class="q-ico-xhdn">📞</span> 문의</a></li>
+    </ul>
+  </nav>
 
-  <!-- HEADER -->
-  <header>
-    <div class="header-inner">
-      <div class="logo"><a href="/">MAGOK NIGHT</a></div>
-      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="nav">
-        <a href="/">홈</a>
-        <a href="tip.html">꿀팁</a>
-        <a href="info.html">정보</a>
-        <a href="review.html">후기</a>
-        <a href="contact.html">문의</a>
-      </nav>
-    </div>
-  </header>
+  <main class="n-foot-zt2p">
+    <!-- 섹션 1: 마곡 유흥 지역 개요 -->
+    <section class="r-head-s1ll">
+      <h2>마곡 유흥 지역 개요</h2>
+      <p>마곡은 최근 몇 년간 급격히 발전한 신도시로, 다양한 문화·상업 시설이 밀집해 있습니다. 특히 저녁이 되면 젊은 층과 직장인들이 모여 즐길 수 있는 바, 클럽, 라운지 등이 고르게 분포해 있어, 첫 방문자도 비교적 쉽게 접근할 수 있습니다.</p>
+      <p>교통 편의성도 뛰어나 지하철 9호선과 공항철도가 교차하는 역세권에 위치해 있어, 서울 전역은 물론 인천·김포까지도 편리하게 이동할 수 있습니다. 이 점은 늦은 시간까지 영업하는 장소를 찾아 이동할 때 큰 장점이 됩니다.</p>
+    </section>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container">
-      <h1>마곡 유흥,<br>이거 하나면 끝!</h1>
-      <p>형, 진짜 원주민이 알려주는 마곡 유흥의 모든 것. 단속 정보부터 가성비 코스, 숨은 맛집까지 다 푼다. 전화 010-6279-0862로 바로 문의도 가능!</p>
-      <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
-    </div>
-  </section>
+    <!-- 섹션 2: 상황별 추천 장소 -->
+    <section class="r-head-s1ll">
+      <h2>상황별 추천 장소</h2>
+      <p><strong>친구와 함께</strong> 즐길 수 있는 곳으로는 대형 펍과 힙한 루프탑 바가 인기입니다. 넓은 좌석과 다양한 안주 메뉴가 준비돼 있어, 분위기와 음료를 동시에 즐기기 좋습니다.</p>
+      <p><strong>커플 데이트</strong>를 위한 분위기 좋은 라운지는 조용한 음악과 은은한 조명이 특징이며, 예약 제휴 서비스를 제공하는 곳도 많아 사전 예약만 하면 편안한 저녁을 보낼 수 있습니다.</p>
+      <p><strong>1인 방문</strong>시에는 작은 가라오케 바나 테마 카페가 좋은 선택입니다. 혼자서도 편하게 즐길 수 있는 개인 좌석과 자유로운 주문 시스템이 마련돼 있어, 혼밥·혼술을 즐기는 경우에 적합합니다.</p>
+    </section>
 
-  <!-- INFO CARDS -->
-  <section style="padding: 2rem 0;">
-    <div class="container">
-      <div class="section-title">
-        <h2><span>마곡 유흥 필수 정보</span></h2>
-        <p style="color:#aaa;">형들이 꼭 알아야 할 꿀팁만 쏙쏙</p>
-      </div>
-      <div class="cards-grid">
-        <div class="card">
-          <h3>🕐 단속 정보 & 안전수칙</h3>
-          <p>마곡 단속 패턴 다 정리했어. 수요일 밤, 주말 새벽이 특히 조심해야 하는 시간대. 미리 알고 가면 완전 꿀! 형, 안전이 최우선이야.</p>
-        </div>
-        <div class="card">
-          <h3>💰 가성비 코스 추천</h3>
-          <p>20만원대로 끝내는 3차 코스? 가능해. 내가 증정하는 마곡 생생 코스 리스트. 첫차부터 막차까지 알차게 즐기고 싶다면 무조건 확인!</p>
-        </div>
-        <div class="card">
-          <h3>🍻 숨은 단골집 리스트</h3>
-          <p>외지인은 모르는 마곡 골목의 숨은 성지. 사장님이 친절하고 안주가 푸짐한 곳만 추려봤어. 진짜 로컬 vibe 느끼고 싶다면 여기로 와.</p>
-        </div>
-        <div class="card">
-          <h3>📅 요일별 분위기</h3>
-          <p>월요일은 조용, 금요일은 불금! 일요일은 가성비 최고. 원하는 분위기에 맞춰 골라보는 재미. 혼술도 환영하는 분위기 좋은 곳 많아.</p>
-        </div>
-        <div class="card">
-          <h3>🚗 교통 & 주차 꿀팁</h3>
-          <p>마곡 주차 전쟁에서 살아남는 법! 무료 주차 가능한 곳, 대중교통 막차 시간, 택시 잡기 쉬운 스팟까지. 늦은 밤 귀가 걱정 끝.</p>
-        </div>
-        <div class="card">
-          <h3>🔞 신상 체크</h3>
-          <p>신규 오픈한 핫플부터 리뉴얼한 단골집까지. 마곡에서 새로 뜨는 유흥 스팟을 가장 빠르게 업데이트. 형, 트렌드 놓치면 안 되지!</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- 섹션 3: 방문 전 체크리스트 -->
+    <section class="r-head-s1ll">
+      <h2>방문 전 체크리스트</h2>
+      <p>시간대별로 분위기가 크게 달라집니다. 오후 6시~9시 사이에는 식사와 가벼운 음료를 즐기기 좋은 시간이지만, 10시 이후에는 클럽·바가 본격 가동돼 조명이 밝고 음악 소음이 커집니다. 자신이 원하는 분위기에 따라 방문 시간을 미리 정해두는 것이 좋습니다.</p>
+      <p>인원수에 따른 최소 주문 금액이나 테이블 예약 정책이 다를 수 있습니다. 4인 이상 단체라면 사전 예약을 통해 좌석 확보와 할인 혜택을 받는 것이 현명합니다. 또한, 예산을 미리 설정하고, 1인당 평균 지출 금액(음료·안주·입장료 포함)을 파악해 과도한 지출을 예방하세요.</p>
+    </section>
 
-  <!-- FAQ -->
-  <section style="padding: 3rem 0; background: #1f1f1f;">
-    <div class="container">
-      <div class="section-title">
-        <h2><span>자주 묻는 질문</span></h2>
-      </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleFAQ(this)">
-            <span>마곡에서 첫 유흥, 어떻게 시작해야 할까?</span>
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-answer">
-            <p>형, 첫 술은 가볍게! 가성비 좋은 2차 위주로 돌아보는 걸 추천해. 내가 올린 꿀팁 페이지에 초보자 코스가 자세히 나와 있으니까 참고해 봐. 전화로 직접 물어봐도 되고 010-6279-0862로 연락 줘!</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-question" onclick="toggleFAQ(this)">
-            <span>단속 정보는 어떻게 확인하나요?</span>
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-answer">
-            <p>내가 매주 업데이트하는 단속 패턴
+    <!-- 섹션 4: 안전 및 유의사항 -->
+    <section class="r-head-s1ll">
+      <h2>안전 및 유의사항</h2>
+      <p>마곡은 비교적 안전한 지역이지만, 늦은 시간에 혼자 이동할 경우 택시·카카오T 등 안전한 교통수단을 미리 확보하는 것이 좋습니다. 특히 주말 밤에는 차량이 부족할 수 있으니 미리 앱을 열어두는 습관을 들이세요.</p>
+      <p>음주 후에는 과도한 행동을 삼가고, 개인 물품(핸드폰·지갑·키 등)을 항상 보관하세요. 일부 클럽에서는 입장 시 신분증 확인과 함께 출입 제한이 있을 수 있으니, 미성년자는 반드시 입장이 금지된 장소를 피하고, 성인이라도 신분증을 지참하는 것이 바람직합니다.</p>
+    </section>
+
+    <!-- 섹션 5: 자주 묻는 질문 (FAQ) -->
+    <section class="r-head-s1ll">
+      <h2>자주 묻는 질문</h2>
+      <p><strong>Q1: 마곡에서 가장 저렴하게 칵테일을 마실 수 있는 곳은 어디인가요?</strong><br>
+      A1: 지하철 역 근처에 위치한 소형 바에서는 1인당 10,000원 이하에 다양한 칵테일을 즐길 수 있습니다. 특히 평일 저녁에 운영되는 프로모션을 이용하면 더 저렴하게 마실 수 있습니다.</p>
+
+      <p><strong>Q2: 늦은 시간에 안전하게 귀가하려면 어떤 교통수단이 가장 좋나요?</strong><br>
+      A2: 카카오T·TADA 등 공유 모빌리티 서비스가 가장 편리합니다. 사전에 앱을 열어 대기 시간을 최소화하고, 도착지와 운전자를 확인한 뒤 탑승하세요. 대중교통이 운행을 종료한 경우에는 24시간 운영되는 택시 호출 서비스도 활용할 수 있습니다.</p>
+
+      <p><strong>Q3: 예약 없이 바로 입장 가능한 바는 어디인가요?</strong><br>
+      A3: 마곡 중심가에 위치한 ‘라운지 X’와 ‘펍 Y’는 대기 명단에 이름을 올리면 바로 입장이 가능합니다. 다만, 주말 저녁엔 대기 시간이 길어질 수 있으니 가능한 한 일찍 방문하는 것을 권장합니다.</p>
+    </section>
+  </main>
+
+  <!-- 푸터 (공통) -->
+  <footer class="v-btn-4kus">
+    <h1>마곡 유흥 가이드</h1>
+    <p>© 2026 마곡 나이트 가이드. 모든 권리 보유.</p>
+  </footer>
 </body>
 </html>
